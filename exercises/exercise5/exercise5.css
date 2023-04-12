@@ -102,6 +102,10 @@ p {
   color: #6d6d6d;
 }
 
+a {
+  color: #6d6d6d;
+}
+
 @media (max-width: 960px) {
   .flex-container {
     background: pink;
