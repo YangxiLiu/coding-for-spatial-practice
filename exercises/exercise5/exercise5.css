@@ -102,5 +102,64 @@ p {
   color: #6d6d6d;
 }
 
+@media (max-width: 960px) {
+  .flex-container {
+    background: pink;
+  }
 
+  h1 {
+      color: #6d6d6d;
+  }
+
+  h3 {
+      color: #fce694;
+  }
+
+
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sb-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left, .right {
+    width: 100%;
+    flex-direction: row;
+    display:flex;
+  }
+}
+
+
+@media (max-width: 450px) {
+  .header-container {
+    background: white;
+  }
+
+  main {
+    display: flex;
+    
+  }
+
+  .sb-container {
+    flex-direction: column;
+  }
+
+    .left, .right {
+    width: 100%;
+    flex-direction: column;
+    display:flex;
+  }
+
+  .column {
+    width: 100%;
+  }
+
+  .image img {
+    height: 380px;
+    object-position: 50%;
+  }
 </style>
