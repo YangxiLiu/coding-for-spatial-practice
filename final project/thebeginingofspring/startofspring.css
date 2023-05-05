@@ -33,9 +33,9 @@ ul.guide{
 .guide a{
     text-decoration: none;
     color:white;
-    font-family: 'Kanit', sans-serif;
-    font-size: 12px;
-    font-weight:500;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+    font-weight:700;
 }
 
 .container{
@@ -180,4 +180,19 @@ footer{
 #footer{
     color: white;
     font-size: 10px;
+}
+
+.line2{
+    margin-left: 40px;
+    color: white;
+    width: 800px;
+    border: 1px solid white;
+}
+
+.line{
+    color: white;
+}
+
+.page a{
+    color: #4f6f46;
 }
