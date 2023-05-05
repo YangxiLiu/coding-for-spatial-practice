@@ -1,0 +1,198 @@
+
+body {
+    background-color: beige;
+    transition: background-color 3s ease;
+  }
+  
+  
+li a:hover {
+    text-decoration:none;
+    color: #4f6f46;
+    animation: colors 3s ease 0.3s;
+}  
+  
+ul.guide{
+    display: flex;
+    flex-wrap:nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    list-style: none;
+    margin:0;
+    line-height: 20px;
+    font-style:normal;
+    }
+
+.guide{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:800px
+    }
+
+.guide a{
+    text-decoration: none;
+    color:white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+    font-weight:700;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    z-index: 3;
+}
+
+.solarterm{
+    position: fixed;
+    font-family: 'Yatra One', cursive;
+    color: white;
+    right: 50px;
+    display: flex;
+    flex-direction: column;
+    transform: rotate(90deg);
+    top: 150px;   
+}
+
+#color{
+    position: fixed;
+    right: 250px;
+    display: flex;
+    flex-direction: column;
+    top: 150px; 
+}
+
+#colorname{
+    color: white;
+    writing-mode: vertical-rl; 
+    text-orientation: upright; 
+    white-space: nowrap; 
+    height: 60px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-size: 60px;
+    letter-spacing: 0.5em;
+}
+
+#colortext1{
+    color: white;
+    line-height: 0px;
+    font-size: 13px;
+    margin-top: 120px;
+    margin-left: 50px;
+    font-family: 'Cinzel', serif;
+}
+
+#number{
+    color: white;
+    line-height: 0px;
+    font-size: 13px;
+    margin-left: 50px;
+    font-family: 'Cinzel', serif;
+}
+
+.lefttext{
+    margin-left: 10px;
+    width:800px
+}
+
+.up{
+    margin-left: 40px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.box{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    width:400px
+}
+
+.down{
+    margin-left: 40px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    margin-top: 0;
+}
+
+.text{
+    margin-left: 20px;
+    font-size: 8px;
+    line-height: 5px;
+    color: gray;
+    font-family: 'Cinzel', serif;
+}
+
+.color-bar{
+    height:8px;
+    width: 50px;
+    margin-left: 20px;
+}
+
+img:hover {
+    transform: scale(1.1);
+  }
+
+
+#colorname{
+    font-family: 'ZCOOL XiaoWei', sans-serif;
+}
+
+.background {
+    position: relative;
+}
+  
+.background img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+  
+.background .color-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    opacity: 1;
+  }
+  
+footer{
+    position: fixed;
+    right: 200px;
+    bottom: 30px;
+}
+
+#footer{
+    color: white;
+    font-size: 10px;
+}
+
+.line2{
+    margin-left: 40px;
+    color: white;
+    width: 800px;
+    border: 1px solid white;
+}
+
+.line{
+    color: white;
+}
+
+.page a{
+    color: #4f6f46;
+}
