@@ -172,7 +172,7 @@ img:hover {
   }
   
 footer{
-    position: absolute;
+    position: fixed;
     right: 200px;
     bottom: 30px;
 }
