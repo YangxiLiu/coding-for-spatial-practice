@@ -47,17 +47,20 @@ h3{
 }
 
 .namebox{
-    background-color: #373737;
     display: flex;
     flex-direction: row;
     justify-content:space-around;
-    height: 650px;
+    margin-top: 50px;
 }
 
 .name{
     display: flex;
     flex-direction:column;
     justify-content:space-around
+}
+
+.image{
+    height:600px
 }
 
 
